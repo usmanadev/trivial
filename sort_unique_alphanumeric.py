@@ -1,5 +1,5 @@
 def sort_unique_alphanumeric(str):
-    """Removes all duplicate whitespace separated words from the string and sorts it lexicographically.
+    """Removes all duplicate whitespace separated words from the string and sorts it alphanumerically.
     """
     split_str = str.split()
     split_str.sort()
